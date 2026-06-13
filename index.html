@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dorcina & Yanis - Mariage</title>
+    <title>Dorciana & Yanis - Mariage</title>
     <style>
         * {
             margin: 0;
@@ -18,11 +18,12 @@
             justify-content: center;
             align-items: center;
             font-family: 'Georgia', serif;
+            padding: 20px;
         }
 
         .coeur {
             text-align: center;
-            font-size: 18px;
+            font-size: 16px;
             line-height: 1.4;
             color: #d6336c;
             animation: pulse 2s infinite;
@@ -34,8 +35,8 @@
         }
 
         .noms {
-            margin-top: 20px;
-            font-size: 28px;
+            margin-top: 15px;
+            font-size: 26px;
             font-weight: bold;
             color: #c9184a;
             letter-spacing: 2px;
@@ -46,20 +47,41 @@
         }
 
         .love {
-            margin-top: 10px;
-            font-size: 20px;
+            margin-top: 8px;
+            font-size: 18px;
             color: #a4133c;
             font-style: italic;
         }
 
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.03); }
+        .anneaux {
+            font-size: 28px;
+            margin-top: 8px;
         }
 
-        .anneaux {
-            font-size: 30px;
-            margin-top: 10px;
+        .enfants {
+            margin-top: 20px;
+            font-size: 36px;
+            letter-spacing: 8px;
+            line-height: 2;
+            animation: bounce 1.5s infinite;
+        }
+
+        .texte-enfants {
+            margin-top: 5px;
+            font-size: 18px;
+            color: #c9184a;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
         }
     </style>
 </head>
@@ -71,7 +93,7 @@
    💗💕💖💖💖💖💖💖💖💖💖💖💕💗
   💗💕💖🌸🌸🌸🌸🌸🌸🌸🌸💖💕💗
  💗💕💖🌸💝💝💝💝💝💝💝💝🌸💖💕💗
- 💗💕💖🌸💝  Dorcina  💝🌸💖💕💗
+ 💗💕💖🌸💝 Dorciana 💝🌸💖💕💗
  💗💕💖🌸💝     &     💝🌸💖💕💗
  💗💕💖🌸💝   Yanis   💝🌸💖💕💗
  💗💕💖🌸💝💝💝💝💝💝💝💝🌸💖💕💗
@@ -81,10 +103,19 @@
         💗💗💗💗💗💗💗💗💗💗💗
         </pre>
         <div class="noms">
-            <span>Dorcina</span> & <span>Yanis</span>
+            <span>Dorciana</span> & <span>Yanis</span>
         </div>
         <div class="love">💒 Unis pour la vie 💒</div>
         <div class="anneaux">💍💝💍</div>
+        <div class="texte-enfants">👨‍👩‍👧‍👦 Beaucoup d'enfants 👨‍👩‍👧‍👦</div>
+        <div class="enfants">
+            👶👶👶👶👶<br>
+            👧👦👧👦👧👦<br>
+            🍼🍼🍼🍼🍼🍼🍼<br>
+            👶👶👶👶👶👶👶👶<br>
+            👧👦👧👦👧👦👧👦👧<br>
+            🍼🍼🍼🍼🍼🍼🍼🍼🍼🍼
+        </div>
     </div>
 </body>
 </html>
